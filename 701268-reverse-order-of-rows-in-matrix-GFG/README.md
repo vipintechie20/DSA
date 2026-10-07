@@ -1,0 +1,4 @@
+# [Reverse Order of Rows in Matrix](https://www.geeksforgeeks.org/problems/reversing-the-rows-of-a-matrix-1587115621/1)
+## Easy
+Given a matrix&nbsp; mat[][] of size n × m, reverse the order of its rows in-place. After the operation, the first row should become the last row, the second row should become the second last row, and so on.Examples:Input: mat[][] = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]Output: [[13, 14, 15, 16], [9, 10, 11, 12], [5, 6, 7, 8], [1, 2, 3, 4]]Explanation: After reversing the order of the rows, the first row becomes the last row, the second row becomes the second last row, and so on.
+Input: mat[][] = [[1, 2, 3], [4, 5, 6],[7, 8, 9], [10, 11, 12], [13, 14, 15]]Output: [[13, 14, 15],[10, 11, 12], [7, 8, 9], [4, 5, 6], [1, 2, 3]]Explanation: After reversing the order of the rows, the first row becomes the last row, the second row becomes the second last row, and so on.

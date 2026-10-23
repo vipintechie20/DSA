@@ -6,10 +6,8 @@ class Solution {
         for(int val:arr){
             if(val == 0){
                 red++;
-            }else if(val == 1){
+            }else {
                 white++;
-            }else{
-                blue++;
             }
         }
         int p = 0;
@@ -21,10 +19,6 @@ class Solution {
             arr[p] = 1;
             p++;
             white--;
-        }while(blue!=0){
-            arr[p] = 2;
-            p++;
-            blue--;
         }
     }
 }
